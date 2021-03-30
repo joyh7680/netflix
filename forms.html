@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>forms</title>
+   <link rel="stylesheet">
+   <style>
+      input {width: 200px; height: 40px;}
+      button {width: 200px; height: 40px; background-color: red;}
+   </style>
+</head>
+<body>
+   <form action="login.php" >
+      <input type="text" name="user_id" > <br>
+      <input type="password" name="user_pw"> <br>
+      <input type="checkbox" name="member" value="true"> <br>
+      <input type="range">
+
+      <!-- 입력할 수 있는 칸이 생김 -->
+      <button type="submit">30일 무료 체험</button>
+                   <!-- 승인 제출 -->
+
+   </form>
+   <form action="member.php">
+      <h3>성별</h3>
+      <input type="radio" name="man" value="man" id="man_r"> <label for="mar_r">남자</label>
+      <input type="checkbox" name="women"> <label>여자</label>
+      <input type="submit">
+
+      <select name="language" multiple >
+                             <!-- 여러가지 선택을 할 수 있음 -->
+         <option value="korean">한국어</option>
+         <option value="chinese">중국어</option>
+           <!-- value 값을써주는게 좋다 확인하는 기준이 됌. 
+                창에서 영어 선택시 링크주소에 language=eng  -->
+         <option value="eng" selected>영어 </option>
+                <!-- selected 라고 하면 영어로 먼저 화면에 표시됨 -->
+      </select>
+ 
+      <br>
+      <textarea name="memo" rows="10" cols="30"> 메모</textarea>
+                       <!-- 넓이ㅏ가 넓은 인푸샃ㅇ -->
+       <button type="button" hoggag></button>   
+       
+       
+       
+       
+       <fieldset></fieldset>
+       <!-- feild 기본적인 영역에 생김 -->
+
+       <input list="news">
+          <datalist id="news">
+               <option>서울시장 선거</option>
+               <option>코로나</option>
+               <option >프로야구 개막</option>
+               <option >여행지 추천</option>
+          </datalist>
+   </form>
+</body>
+</html>
