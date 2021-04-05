@@ -1,0 +1,49 @@
+footer {width: 100%;}
+
+.footer_wrap {
+    width: 1200px;
+     margin: 0 auto;
+      padding: 70px 0 40px;}
+
+.footer_menu_wrap {
+    width: 100%;
+     display: flex;
+    margin: 30px 0;}
+
+.footer_menu {width: 20%; }
+
+
+.footer_menu_li {
+    margin-bottom: 12px;
+}
+
+#lang_form {
+    border: 1px solid white; 
+    width: 20%;
+    height: 40px;
+    padding: 5 10px;
+    border-radius: 4px;
+}
+
+#language {
+     width: 80px; 
+     height: 30px;
+     background-color: black;
+     color: white; 
+     border: none;
+    }
+
+#lang_form img {
+    width: 20px; 
+    vertical-align: middle;
+     margin: 0 10px 0 0;
+    }
+
+ .infor_brand {
+     padding: 20px 0 ;
+     border-bottom: 1px solid rgba(0,0,0,0.4);}
+
+.infor_contact {
+    margin-top: 20px;
+
+}
